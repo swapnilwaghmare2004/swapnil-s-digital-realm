@@ -69,7 +69,7 @@ const HeroSection = () => {
               transition={{ delay: 0.7 }}
               className="flex flex-wrap gap-4 mb-8"
             >
-              <a href="/Swapnil_Waghmare_Resume.pdf" download className="btn-primary flex items-center gap-2">
+              <a href="/Swapnil_Waghmare_Resume.pdf" download target="_blank" rel="noopener noreferrer" className="btn-primary flex items-center gap-2">
                 <Download size={18} />
                 Download Resume
               </a>
