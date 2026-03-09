@@ -125,12 +125,12 @@ const HeroSection = () => {
             className="relative flex justify-center lg:justify-end"
           >
             <div className="relative">
-              <div className="absolute inset-0 bg-gradient-to-br from-primary to-secondary rounded-full blur-3xl opacity-30 animate-pulse-glow" />
-              <div className="relative w-72 h-72 md:w-96 md:h-96 rounded-full overflow-hidden gradient-border p-1">
+              <div className="absolute inset-0 bg-gradient-to-br from-primary to-secondary rounded-2xl blur-3xl opacity-30 animate-pulse-glow" />
+              <div className="relative w-72 h-72 md:w-96 md:h-96 rounded-2xl overflow-hidden gradient-border p-1" style={{ borderRadius: '1rem' }}>
                 <img
                   src={profilePhoto}
                   alt="Swapnil Waghmare"
-                  className="w-full h-full object-cover rounded-full"
+                  className="w-full h-full object-cover rounded-2xl"
                 />
               </div>
             </div>
