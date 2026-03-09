@@ -96,6 +96,44 @@ const experiences = [
       "Handling operational tasks during the event",
     ],
   },
+  {
+    title: "Volunteer – Smith & Nephew",
+    company: "JW Marriott Hotel, Pune",
+    period: "February 28, 2026",
+    description: "Assisted in managing exhibition activities and visitor coordination at a corporate event.",
+    responsibilities: [
+      "Assisted in managing exhibition activities and visitor coordination",
+      "Supported company representatives during product demonstrations",
+      "Helped ensure smooth event operations and attendee guidance",
+    ],
+  },
+  {
+    title: "IT Manager – Physics Wallah",
+    company: "Physics Wallah",
+    period: "October 5, 2025",
+    description: "Managed the technical setup and operations for an offline mock examination designed to provide students with real-time experience of computer-based entrance exams such as JEE, NEET, and MBA entrance tests.",
+    responsibilities: [
+      "Successfully conducted offline computer-based mock exam for 150+ students",
+      "Managed exam operations across 2 shifts ensuring smooth execution",
+      "Configured computer systems and ensured proper functioning of exam software",
+      "Assisted students in understanding the PC-based examination interface",
+      "Monitored systems during the exam to prevent technical disruptions",
+      "Coordinated with the organizing team to maintain accurate scheduling and exam flow",
+      "Ensured technical readiness and troubleshooting support throughout the examination process",
+    ],
+  },
+  {
+    title: "Invigilator – Competitive Examination",
+    company: "Competitive Examination Center",
+    period: "November 2025",
+    description: "Supervised candidates during a competitive examination ensuring discipline and fair conduct.",
+    responsibilities: [
+      "Successfully supervised candidates during a competitive examination",
+      "Ensured proper exam discipline and adherence to examination guidelines",
+      "Assisted in managing candidate seating and maintaining a fair examination environment",
+      "Coordinated with exam authorities to ensure smooth and organized exam conduct",
+    ],
+  },
 ];
 
 const ExperienceCard = ({ experience, index }: { experience: typeof experiences[0]; index: number }) => {
