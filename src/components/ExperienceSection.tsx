@@ -134,6 +134,29 @@ const experiences = [
       "Coordinated with exam authorities to ensure smooth and organized exam conduct",
     ],
   },
+  {
+    title: "Event Management Coordinator – Corporate Annual Day Event",
+    company: "Polybond Company | Sankalp Garden",
+    period: "April 5, 2026",
+    description: "Helped in managing and coordinating the company’s Annual Day 2026 corporate event.",
+    responsibilities: [
+      "Assisted in end-to-end event operations including console management, backstage support, photography, decoration, and venue arrangements",
+      "Coordinated with vendors, staff, and team members to ensure smooth event execution",
+      "Supported successful delivery of a large-scale corporate function through teamwork, communication, and organizational skills",
+    ],
+  },
+  {
+    title: "Photography & Videography Executive – Promotional Event",
+    company: "Vijay Sales",
+    period: "January 24–26, 2026",
+    description: "Managed promotional activities and event documentation for IFB Electronics products during a 3-day campaign.",
+    responsibilities: [
+      "Conducted and managed promotional activities for IFB Electronics products including microwaves, washing machines, and dishwashers",
+      "Captured high-quality photos and videos throughout the 3-day promotional campaign for marketing and event documentation",
+      "Managed customer engagement and interactions with 1,000+ visitors during the event",
+      "Supported brand visibility and promotional execution through effective on-ground coordination",
+    ],
+  },
 ];
 
 const ExperienceCard = ({ experience, index }: { experience: typeof experiences[0]; index: number }) => {
